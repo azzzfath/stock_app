@@ -16,10 +16,10 @@ class StockModel {
     required this.price,
     required this.volume,
     required this.changePercent,
-    this.description ='-',
-    this.marketCap = '-',
-    this.peRatio = '-',
-    this.divYield = '-',
-    this.sector = '-',
+    this.description ='',
+    this.marketCap = '',
+    this.peRatio = '',
+    this.divYield = '',
+    this.sector = '',
   });
 }
